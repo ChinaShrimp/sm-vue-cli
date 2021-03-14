@@ -15,7 +15,7 @@ program
             return;
         }
 
-        download('ChinaShrimp/jamstack-intro-auth', destDirName, err => {
+        download('ChinaShrimp/vue-cesium-template', destDirName, err => {
             console.log(err ? chalk.red("创建失败"+err): chalk.green("创建成功"));
         });
     });
