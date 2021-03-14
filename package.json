@@ -1,0 +1,26 @@
+{
+  "name": "sm-vue-cli",
+  "version": "1.0.0",
+  "description": "CLI to create cesium app using Supermap and vue-cesium",
+  "main": "index.js",
+  "bin": {
+    "sm-vue-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "Supermap",
+    "vue-cesium",
+    "cesium"
+  ],
+  "author": "Lyon Liang",
+  "email": "10981301@qq.com",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
