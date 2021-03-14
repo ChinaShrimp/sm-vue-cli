@@ -15,8 +15,10 @@ program
             return;
         }
 
-        download('ChinaShrimp/vue-cesium-template', destDirName, err => {
-            console.log(err ? chalk.red("创建失败"+err): chalk.green("创建成功"));
+        download('direct:https://github.com/ChinaShrimp/vue-cesium-template/archive/main.zip',
+            destDirName,
+            err => {
+                console.log(err ? chalk.red("创建失败"+err): chalk.green("创建成功"));
         });
     });
 
